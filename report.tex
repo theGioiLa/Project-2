@@ -1,0 +1,103 @@
+\documentclass[12pt]{report}
+\usepackage{graphicx}
+\usepackage[utf8]{vietnam}
+\usepackage[left=2cm, right=2cm, top=2cm, bottom=2cm]{geometry}
+\usepackage{subfiles}
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+\usepackage{fancybox}
+\usepackage{etoolbox}
+\usepackage{float}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{cases}
+\usepackage{array}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{multirow}
+\usepackage{booktabs}
+\newcommand{\tabitem}{~~\llap{\textbullet}~~}
+
+\usepackage[nottoc,notlof,notlot]{tocbibind} 
+\renewcommand\bibname{References}
+
+% Link color setup
+\hypersetup{
+	colorlinks = true,
+	linkcolor = black,
+	citecolor = blue
+}
+
+% Change format of page
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead{}
+\fancyfoot{}
+\fancyhead[L]{Interconnecion Network}
+\fancyfoot[L]{}
+\fancyfoot[R]{\thepage}
+\renewcommand{\headrulewidth}{1pt}
+\renewcommand{\footrulewidth}{1pt}
+
+\renewcommand{\thesection}{\arabic{section}}
+\renewcommand{\thesubsection}{\thesection.\arabic{subsection}}
+\renewcommand{\thesubsubsection}{\thesubsection.\arabic{subsubsection}}
+
+% format
+\usepackage{titlesec}
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd{\ttlh@hang}{\parindent\z@}{\parindent\z@\leavevmode}{}{}
+\patchcmd{\ttlh@hang}{\noindent}{}{}{}
+\makeatother
+
+\titleformat{\subsection}
+{\normalfont\large\bfseries}{\thesubsection}{1em}{}
+\titleformat{\subsubsection}
+{\normalfont\large\sffamily\bfseries}{\thesubsubsection}{1em}{}
+
+% tab command
+\newcommand\tab[1][1cm]{\hspace*{#1}}
+
+\begin{document}
+
+\subfile{sections/title-page.tex}
+
+\pagenumbering{gobble}
+\tableofcontents 
+\newpage
+
+\pagenumbering{arabic}
+\newpage
+\setcounter{page}{1}
+
+\section{Mở đầu}
+\subfile{sections/loimodau.tex}
+
+\section{Tổng quan về mạng liên kết}
+\subfile{sections/overview.tex}
+
+\section{Hình trạng mạng (Topo)}
+\subfile{sections/topo.tex}
+
+\section{Xây dựng topo cơ bản: Small World}
+\subfile{sections/smallWorld.tex}
+
+\section{Bài toán triển khai trung tâm dữ liệu}
+\subfile{sections/layout.tex}
+
+\section{Kết luận}
+\subfile{sections/conclusion.tex}
+
+\begin{thebibliography}{9}
+	\bibitem{latexcompanion} 
+	William James Dally \& Brian Towles.
+	\textit{Principles and Practices of Interconnection Networks}. 
+
+    \bibitem{latexcompanion}
+    José Duato, Sudhakar Yalamanchili \& Lionel M. Ni
+    \textit{Interconnection Networks An Engineering Approach}
+\end{thebibliography}
+
+\end{document}

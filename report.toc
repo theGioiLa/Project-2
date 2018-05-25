@@ -1,0 +1,22 @@
+\contentsline {section}{\numberline {1}M\IeC {\h \ohorn } \IeC {\dj }\IeC {\`\acircumflex }u}{1}{section.0.1}
+\contentsline {section}{\numberline {2}T\IeC {\h \ocircumflex }ng quan v\IeC {\`\ecircumflex } m\IeC {\d a}ng li\IeC {\^e}n k\IeC {\'\ecircumflex }t}{1}{section.0.2}
+\contentsline {subsection}{\numberline {2.1}M\IeC {\d a}ng li\IeC {\^e}n k\IeC {\'\ecircumflex }t l\IeC {\`a} g\IeC {\`\i } ?}{1}{subsection.0.2.1}
+\contentsline {subsection}{\numberline {2.2}M\IeC {\d a}ng li\IeC {\^e}n k\IeC {\'\ecircumflex }t \IeC {\dj }\IeC {\uhorn }\IeC {\d \ohorn }c d\IeC {\`u}ng \IeC {\h \ohorn } \IeC {\dj }\IeC {\^a}u ?}{2}{subsection.0.2.2}
+\contentsline {subsection}{\numberline {2.3}Vai tr\IeC {\`o} c\IeC {\h u}a m\IeC {\d a}ng li\IeC {\^e}n k\IeC {\'\ecircumflex }t}{2}{subsection.0.2.3}
+\contentsline {section}{\numberline {3}H\IeC {\`\i }nh tr\IeC {\d a}ng m\IeC {\d a}ng (Topo)}{2}{section.0.3}
+\contentsline {subsection}{\numberline {3.1}Direct Network}{3}{subsection.0.3.1}
+\contentsline {subsubsection}{C\IeC {\'a}c topo \IeC {\dj }i\IeC {\h \ecircumflex }n h\IeC {\`\i }nh}{3}{subsection.0.3.1}
+\contentsline {paragraph}{L\IeC {\uhorn }\IeC {\'\ohorn }i n chi\IeC {\`\ecircumflex }u}{4}{subsection.0.3.1}
+\contentsline {paragraph}{M\IeC {\d a}ng Torus (k-ary n-cube)}{4}{figure.0.2}
+\contentsline {subsection}{\numberline {3.2}Indirect Network}{5}{subsection.0.3.2}
+\contentsline {section}{\numberline {4}X\IeC {\^a}y d\IeC {\d \uhorn }ng topo c\IeC {\ohorn } b\IeC {\h a}n: Small World}{6}{section.0.4}
+\contentsline {subsection}{\numberline {4.1}M\IeC {\^o} h\IeC {\`\i }nh}{6}{subsection.0.4.1}
+\contentsline {subsection}{\numberline {4.2}Ch\IeC {\uhorn }\IeC {\ohorn }ng tr\IeC {\`\i }nh th\IeC {\d \uhorn }c nghi\IeC {\d \ecircumflex }m}{8}{subsection.0.4.2}
+\contentsline {section}{\numberline {5}B\IeC {\`a}i to\IeC {\'a}n tri\IeC {\h \ecircumflex }n khai trung t\IeC {\^a}m d\IeC {\~\uhorn } li\IeC {\d \ecircumflex }u}{13}{section.0.5}
+\contentsline {subsection}{\numberline {5.1}Gi\IeC {\'\ohorn }i thi\IeC {\d \ecircumflex }u v\IeC {\'\acircumflex }n \IeC {\dj }\IeC {\`\ecircumflex }}{13}{subsection.0.5.1}
+\contentsline {subsection}{\numberline {5.2}M\IeC {\^o} h\IeC {\`\i }nh h\IeC {\'o}a b\IeC {\`a}i to\IeC {\'a}n}{14}{subsection.0.5.2}
+\contentsline {subsubsection}{X\IeC {\'a}c \IeC {\dj }\IeC {\d i}nh chi ph\IeC {\'\i }}{14}{subsection.0.5.2}
+\contentsline {subsubsection}{Kh\IeC {\h a}o s\IeC {\'a}t v\IeC {\`a} \IeC {\dj }\IeC {\'a}nh gi\IeC {\'a} chi ph\IeC {\'\i } cable length}{14}{subsection.0.5.2}
+\contentsline {subsection}{\numberline {5.3}\IeC {\DJ }\IeC {\`\ecircumflex } xu\IeC {\'\acircumflex }t h\IeC {\uhorn }\IeC {\'\ohorn }ng gi\IeC {\h a}i quy\IeC {\'\ecircumflex }t}{16}{subsection.0.5.3}
+\contentsline {section}{\numberline {6}K\IeC {\'\ecircumflex }t lu\IeC {\d \acircumflex }n}{16}{section.0.6}
+\contentsline {chapter}{T\`ai li\d \ecircumflex u tham kh\h {a}o}{17}{chapter*.2}
