@@ -22,7 +22,7 @@ Với bài toán này ra đã biết trước được diện tích $S_i$ ($i = 
 Các tủ Rack được phân bố vào các phòng theo chiến lược lấp đầy, nghĩa là khi một phòng đã chứa được tối đa số rack có thể thì ta sẽ cần phân bố số rack còn lại vào các sàn tiếp theo dựa trên cách thức đó. Sau khi đã phân bố rack, ta cần quan tâm tới cách thức đưa các node của topo vào các rack sao cho phù hợp. Dựa vào thực nghiệm của nhóm nghiên cứu đã tìm được hai giải pháp có thể mang lại sự tối ưu đó là đổ tràn và đổ đều:
 \begin{itemize}
         \item Đổ tràn là triển khai lần lượt các node mạng của topo vào tuần tự từng tủ rack theo lần lượt các phòng có diện tích $S_i$
-        \item Đổ đều là thực hiện chia đều số node mạng của topo vào các phòng có diện tích $S_u$
+        \item Đổ đều là thực hiện chia đều số node mạng của topo vào các phòng có diện tích $S_i$
 \end{itemize}
 
 Để kết nối các sàn của trung tâm dữ liệu với nhau, ta sử dụng Highway với các đặc tính sau:
