@@ -1,4 +1,3 @@
-report.pdf: report.tex \
-	sections/title-page.tex 
+report.pdf: report.tex 
 	pdflatex report.tex
 	pdflatex report.tex
